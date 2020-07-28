@@ -16,12 +16,6 @@ using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Configuration;
 using System.Linq;
 
-//Create sp using 
-//scope=$(az storage account show --name "mfstoragedemo" --resource-group "CrossTenantStorage" --query id -o tsv)
-//az ad sp create-for-rbac -n FuncStorageUser --role "Storage Blob Data Reader" --scopes $scope
-
-
-
 namespace WriteToBlob
 {
     public static class Function1
