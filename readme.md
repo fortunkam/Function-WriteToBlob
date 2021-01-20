@@ -46,3 +46,13 @@ Update the function app settings
     az functionapp config appsettings set --name BlobAuthFunc --resource-group BlobAuthFunc --settings "ActiveDirectoryBlobUri=https://<storageaccountname>.blob.core.windows.net/"
 
 Deploy the function app code to the function and run.
+
+::: mermaid
+
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+
+:::
